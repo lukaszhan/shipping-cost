@@ -1,0 +1,19 @@
+git clone https://github.com/lukaszhan/shipping-cost.git
+cd shipping-cost-frontend
+
+npm create vite@latest
+
+git add .
+git commit -m "Initial commit"
+git push origin main
+
+npm install gh-pages --save-dev
+
+"homepage": "https://lukaszhan.github.io/shipping-cost",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
+
+npm run build
+npm run deploy
