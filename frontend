@@ -1,5 +1,5 @@
 git clone https://github.com/lukaszhan/shipping-cost.git
-cd shipping-cost-frontend
+cd shipping-cost
 
 npm create vite@latest
 
