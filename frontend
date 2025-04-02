@@ -1,8 +1,1 @@
-git clone https://github.com/lukaszhan/shipping-cost.git
-cd shipping-cost
-
-npm create vite@latest
-
-git add .
-git commit -m "Initial commit"
-git push origin main
+git remote add origin https://github.com/YOUR_USERNAME/shipping-cost-frontend.git
